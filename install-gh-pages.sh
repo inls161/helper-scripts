@@ -9,7 +9,7 @@ apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-conf
 
 # Install build tools
 
-apt-get install -y build-essentials
+apt-get install -y build-essential zlib1g-dev
 
 # install ruby
 
@@ -23,7 +23,7 @@ ln -sfn /usr/bin/rake2.0 /usr/bin/rake
 
 # Fix configuration
 
-echo 
+echo "gem: --no-document" > ~/.gemrc
 
 # update gems
 
