@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#RUN WITH SUDO
+# RUN WITH SUDO
 
 # update packages
 apt-get update -y
